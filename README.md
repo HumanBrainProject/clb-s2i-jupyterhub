@@ -1,5 +1,5 @@
 # JupyterHub image for openshift
 
-This s2i based image adds the cryptography package to enable the authenticator to store tokens.
+This image extends Jupyterhub's official docker image with a custom spawner and authenticator for the EBrains infrastructure.
 
-Based on: https://github.com/jupyter-on-openshift/jupyterhub-quickstart
+https://ebrains.eu
