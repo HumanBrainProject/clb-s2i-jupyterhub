@@ -1,4 +1,4 @@
-FROM jupyterhub/jupyterhub:1.1.dev
+FROM jupyterhub/jupyterhub:1.1
 LABEL maintainer="Human Brain Project <platform@humanbrainproject.eu>"
 
 RUN apt-get update \
