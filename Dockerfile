@@ -10,7 +10,6 @@ RUN apt-get update \
 
 COPY requirements.txt /tmp/
 RUN python3 -m pip install --no-cache -r /tmp/requirements.txt
-RUN chown 65534 /srv/jupyterhub
-
-# nobody
-USER 65534
+RUN chown 1000 /srv/jupyterhub
+RUN useradd jupyterhub -d /srv/jupyterhub -N -u 1000 -s /bin/bash
+USER 1000
