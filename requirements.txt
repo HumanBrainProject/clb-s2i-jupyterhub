@@ -2,7 +2,7 @@ cryptography==36.0.1
 jupyterhub==1.5.0
 nbgitpuller==1.0.2
 pycurl==7.44.1
-jupyterhub-kubespawner==0.15.0
+jupyterhub-kubespawner==0.14.1
 git+https://gitlab.humanbrainproject.org/villemai/kubespawner-seadrive.git@test
 git+https://github.com/HumanBrainProject/clb-authenticator.git@v0.1.1
 git+https://github.com/HumanBrainProject/jupyterhub-access-token-service.git@v0.1.1
